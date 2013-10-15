@@ -17,7 +17,8 @@
     <div>
         <asp:Button ID="btnTo64" ClientIDMode="Static" CssClass="btn" runat="server" /> 
         <asp:TextBox ID="txtBase64" ClientIDMode="Static" runat="server" />
-        <div id="canvasHolder"></div>
+        <div id="canvasHolder"></div>
+
     </div>
     </form>
 </body>
@@ -78,7 +79,8 @@
         document.getElementById('preview').src = dataURL;
         // place the image value in the text box
         document.getElementById('txtBase64').value = dataURL;
-    };
+    };
+
 
 </script>
 
